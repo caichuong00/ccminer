@@ -50,7 +50,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/Oink70/Android-Mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/caichuong00/ccminer/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
@@ -64,3 +64,5 @@ cat << EOF > ~/ccminer/start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 EOF
 chmod +x start.sh
+cd ccminer
+nano config.json
