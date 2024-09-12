@@ -7,13 +7,13 @@
 		"disable": 0
 	},
 	{
-		"name": "LuckPoolFailover1",
+		"name": "LuckPool1",
         	"url": "stratum+tcp://ap.luckpool.net:3956",
 		"timeout": 150,
 		"disable": 0
 	},
 	{
-		"name": "LuckPoolFailover2",
+		"name": "LuckPool2",
         	"url": "stratum+tcp://ap.luckpool.net:3957",
 		"timeout": 150,
 		"disable": 0
