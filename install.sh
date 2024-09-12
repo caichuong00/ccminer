@@ -65,4 +65,4 @@ cat << EOF > ~/ccminer/start.sh
 EOF
 chmod +x start.sh
 cd ~/ccminer
-nano config.json
+exec nano config.json
